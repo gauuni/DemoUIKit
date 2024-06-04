@@ -82,9 +82,9 @@ class ViewController: UIViewController {
     }
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
-        if keyPath == "nameKVO", let change {
-            print(change[NSKeyValueChangeKey.newKey])
-        }
+//        if keyPath == "nameKVO", let change {
+//            print(change[NSKeyValueChangeKey.newKey])
+//        }
  
     }
     
